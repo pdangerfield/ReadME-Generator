@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "ReadME generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdangerfield/ReadME-Generator.git"
+  },
+  "author": "pdangerfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdangerfield/ReadME-Generator/issues"
+  },
+  "homepage": "https://github.com/pdangerfield/ReadME-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
