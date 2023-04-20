@@ -32,6 +32,26 @@ const questions = [
         message: "List your collaborators, if any.",
     },
     {
+        type: "input",
+        name: "tests",
+        message: "Please list any tests instructions for this application",
+    },
+    {
+        type: "input",
+        name: "credits",
+        message: "List your collaborators, if any.",
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Please Enter your email.",
+    },
+    {
+        type: "input",
+        name: "username",
+        message: "Please enter your GitHub username.",
+    },
+    {
         type: "list",
         name: "license",
         message: "Please select a license that applies to this project.",
@@ -48,7 +68,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((responses) => {
         console.log("Creating README.md file...");
-        writeToFile("./Develop/ReadME.md", generateMarkdown({ ...responses}));
+        writeToFile('ReadME.md', generateMarkdown({ ...responses}));
     });
 }
 
