@@ -24,12 +24,17 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples for use. Include screenshots as needed.",
+        message: "Provide instructions and examples for use.",
     },
     {
         type: "input",
-        name: "credits",
-        message: "List your collaborators, if any.",
+        name: "screenshot",
+        message: "Provide the path to the image you want to use as a screenshot",
+    },
+    {
+        type: "input",
+        name: "contributing",
+        message: "Please provide any instructions on how you can contribute to this application.",
     },
     {
         type: "input",
@@ -55,7 +60,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Please select a license that applies to this project.",
-        choices: ["MIT", "APACHE2.0", "Boost1.0", "BSD2", "MPL2.0", "BSD3", "none"] 
+        choices: ["MIT", "APACHE2.0", "Boost1.0", "BSD2", "MPL2.0", "BSD3", "Perl", "Artistic2.0", "none"] 
     },
 ];
 

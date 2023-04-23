@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     if(license !== "none") {
-        return `[![License](https://img.shields.io/badge/License-${license}-blue.svg)]`; // found via this url "https://gist.github.com/qvil/5e3ed56c26d784e51424621119cc4028"
+        return `![License](https://img.shields.io/badge/License-${license}-blue.svg)`; // found via this url "https://gist.github.com/qvil/5e3ed56c26d784e51424621119cc4028"
     } else {
         return "";
     }
@@ -40,7 +40,8 @@ ${data.description}
 ## Installation
 ${data.installation}
 ## Usage
-${data.usage}
+${data.usage}/n
+${data.screenshot}
 ## Contributing
 ${data.contributing}
 ## Tests
